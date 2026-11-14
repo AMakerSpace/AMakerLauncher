@@ -52,7 +52,7 @@ Danach findest du **AMakerLauncher** im App-Menü. Ab da aktualisiert sich der L
 | **Immer aktuell** | Prüft regelmäßig auf Updates, meldet sie per Benachrichtigung und aktualisiert alles mit „Alle aktualisieren“. |
 | **Detailseiten wie im App Store** | Screenshots, Beschreibung, Funktionen, „Neu in dieser Version“, Infos und Versionsverlauf. |
 | **Raster & Tabelle** | Filter (Alle, Installiert, Updates, Nicht installiert), Sortierung und Suche. |
-| **Hell, Dunkel, Auto** | Im Dunkelmodus leuchten die Ränder im Verlauf der Logofarben. |
+| **Hell, Dunkel, Auto** | Im Dunkelmodus leuchten die Ränder im Verlauf der Logofarben. Die App-Icons wechseln mit dem Systemmodus zwischen weißer und schwarzer Kachel. |
 | **favMakerApps** | Beliebte Apps anderer Hersteller ohne Kommandozeile installieren und aktualisieren. |
 
 <p align="center">

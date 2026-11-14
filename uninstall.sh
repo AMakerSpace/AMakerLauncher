@@ -11,6 +11,9 @@ APPS="$DATA/amakerlauncher/apps"
 pkill -f "amakerlauncher/apps/amakerlauncher/amakerlauncher.py" 2>/dev/null || true
 rm -f "$DATA/applications/de.amakerspace.AMakerLauncher.desktop" "$DATA/applications/de.amakerspace.AMakerLauncherDev.desktop"
 rm -rf "$APPS/amakerlauncher" "$DATA/fonts/amakerlauncher/amakerlauncher"
+# Wächter für hell/dunkle Icons beenden und aus dem Autostart nehmen
+pkill -f "amakerlauncher.py --theme-watch" 2>/dev/null || true
+rm -f "${XDG_CONFIG_HOME:-$HOME/.config}/autostart/amakerlauncher-icons.desktop"
 
 if [ "${1:-}" = "--alles" ]; then
   # Menüeinträge der installierten Apps finden und mit entfernen
