@@ -64,8 +64,8 @@ Danach findest du **AMakerLauncher** im App-Menü. Ab da aktualisiert sich der L
 | | App | Worum es geht |
 |---|---|---|
 | <img src="docs/icon.png" width="48"> | **AMakerLauncher** | Dieser Launcher – er aktualisiert sich selbst. |
-| <img src="docs/liquid-intro.png" width="48"> | **Liquid Intro** | Logo-Reveal wie bei Apple Music: Dein PNG taucht unter einer Prismaplatte aus schwingender Flüssigkeit auf. Echte Wellensimulation, physikalisch berechnete Farbsäume, Export als MP4, Greenscreen oder ProRes mit Transparenz. |
-| <img src="docs/rss2tipp10.png" width="48"> | **RSS zu Tipp10** | Holt Artikel aus RSS- und Atom-Feeds und trägt sie als eigene Lektionen in Tipp10 ein – zum Tippen-Üben mit Nachrichten. |
+| <img src="docs/liquid-intro.png" width="48"> | **LiquidIntroMaker** | Logo-Reveal wie bei Apple Music: Dein PNG taucht unter einer Prismaplatte aus schwingender Flüssigkeit auf. Echte Wellensimulation, physikalisch berechnete Farbsäume, Export als MP4, Greenscreen oder ProRes mit Transparenz. |
+| <img src="docs/rss2tipp10.png" width="48"> | **RSSMaker** | RSS-Reader: alle Feeds in einer Liste, Ungelesenes markiert, Artikel merken und im Volltext lesen – und jeden Artikel mit einem Klick als Tipp10-Lektion zum Tippen-Üben. |
 
 Neue Apps und Versionen erscheinen automatisch im Launcher.
 
@@ -103,7 +103,7 @@ Jede App beschreibt sich mit einer `app.json`:
 ```json
 {
   "id": "liquid-intro",
-  "name": "Liquid Intro",
+  "name": "LiquidIntroMaker",
   "version": "1.0.7",
   "subtitle": "Logo-Reveal wie bei Apple Music",
   "description": "Kurzbeschreibung für die Karte",
